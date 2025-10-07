@@ -52,9 +52,30 @@ CI-CD/
 | 🧰 **Build & Dev Tools**         | **Vite** (frontend build tool) for ultra-fast development server<br>**npm** for package management<br>**VS Code** as primary IDE                                                                                |
 | 🔄 **Version Control**           | **Git & GitHub** — for source code management, commits, and collaboration                                                                                                                                       |
 | ☁️ **Environment & Deployment ** | Works locally via `localhost` setup — can be easily extended to Docker, AWS EC2, or Render for production hosting                                                                                               |
-
 ```
 ---
+
+📸 Preview
+```
+🚀 Pipeline 1759866357003 started (2 steps)...
+▶️ Step 1: echo Hello
+Hello
+▶️ Step 2: dir
+Volume in drive C is OS
+ Volume Serial Number is A6EF-8EAF
+ Directory of C:\Users\prana\OneDrive\Desktop\ci-cd\ci-cd-runner
+05-10-2025  22:57    <DIR>          .
+06-10-2025  04:57    <DIR>          ..
+06-10-2025  00:20               746 db.js
+06-10-2025  05:20    <DIR>          node_modules
+06-10-2025  05:20            35,793 package-lock.json
+06-10-2025  05:20               318 package.json
+03-10-2025  20:20             1,008 pipeline-runner.js
+08-10-2025  00:18             6,651 server.js
+               5 File(s)         44,516 bytes
+               3 Dir(s)   7,902,048,256 bytes free
+✅ Pipeline 1759866357003 finished with status: success
+```
 
 ###  Clone the repository
 ```bash
@@ -118,28 +139,6 @@ const pool = new Pool({
 });
 ```
 ---
-
-📸 Preview
-```
-🚀 Pipeline 1759866357003 started (2 steps)...
-▶️ Step 1: echo Hello
-Hello
-▶️ Step 2: dir
-Volume in drive C is OS
- Volume Serial Number is A6EF-8EAF
- Directory of C:\Users\prana\OneDrive\Desktop\ci-cd\ci-cd-runner
-05-10-2025  22:57    <DIR>          .
-06-10-2025  04:57    <DIR>          ..
-06-10-2025  00:20               746 db.js
-06-10-2025  05:20    <DIR>          node_modules
-06-10-2025  05:20            35,793 package-lock.json
-06-10-2025  05:20               318 package.json
-03-10-2025  20:20             1,008 pipeline-runner.js
-08-10-2025  00:18             6,651 server.js
-               5 File(s)         44,516 bytes
-               3 Dir(s)   7,902,048,256 bytes free
-✅ Pipeline 1759866357003 finished with status: success
-```
 
 📜 License
 
